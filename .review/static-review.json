@@ -1,0 +1,626 @@
+{
+  "generator": "repository-static-triage",
+  "version": "1.0",
+  "repository": "vikasdotvivek/ros2_learners",
+  "revision": "54e6081f3bd28280141f48ed3893d33647147ecd",
+  "tracked_files": 132,
+  "scanned": [
+    {
+      "path": "ai_assitance/ai_assitance/__init__.py",
+      "lines": 0,
+      "bytes": 0
+    },
+    {
+      "path": "ai_assitance/ai_assitance/circle_motion.py",
+      "lines": 30,
+      "bytes": 724
+    },
+    {
+      "path": "ai_assitance/ai_assitance/obstacle_avoidence.py",
+      "lines": 45,
+      "bytes": 1502
+    },
+    {
+      "path": "ai_assitance/launch/gazebo_bringup.launch.py",
+      "lines": 34,
+      "bytes": 1277
+    },
+    {
+      "path": "ai_assitance/setup.py",
+      "lines": 33,
+      "bytes": 938
+    },
+    {
+      "path": "ai_assitance/test/test_copyright.py",
+      "lines": 25,
+      "bytes": 962
+    },
+    {
+      "path": "ai_assitance/test/test_flake8.py",
+      "lines": 25,
+      "bytes": 884
+    },
+    {
+      "path": "ai_assitance/test/test_pep257.py",
+      "lines": 23,
+      "bytes": 803
+    },
+    {
+      "path": "navigation_tb3/CMakeLists.txt",
+      "lines": 39,
+      "bytes": 1023
+    },
+    {
+      "path": "navigation_tb3/launch/mapping.launch.py",
+      "lines": 28,
+      "bytes": 743
+    },
+    {
+      "path": "navigation_tb3/launch/navigation.launch.py",
+      "lines": 37,
+      "bytes": 1250
+    },
+    {
+      "path": "navigation_tb3/navigation_tb3/__init__.py",
+      "lines": 0,
+      "bytes": 0
+    },
+    {
+      "path": "navigation_tb3/scripts/multi_waypoints.py",
+      "lines": 104,
+      "bytes": 3597
+    },
+    {
+      "path": "navigation_tb3/scripts/single_goal_nav.py",
+      "lines": 128,
+      "bytes": 3970
+    },
+    {
+      "path": "navigation_tb3/src/pub_occupancy_grid.cpp",
+      "lines": 63,
+      "bytes": 1792
+    },
+    {
+      "path": "nodes/CMakeLists.txt",
+      "lines": 54,
+      "bytes": 1400
+    },
+    {
+      "path": "nodes/launch/map_launch.py",
+      "lines": 49,
+      "bytes": 1370
+    },
+    {
+      "path": "nodes/launch/nodes.launch.py",
+      "lines": 27,
+      "bytes": 745
+    },
+    {
+      "path": "nodes/src/laser_publisher.cpp",
+      "lines": 54,
+      "bytes": 1338
+    },
+    {
+      "path": "nodes/src/publisher.cpp",
+      "lines": 64,
+      "bytes": 1761
+    },
+    {
+      "path": "nodes/src/subscriber.cpp",
+      "lines": 42,
+      "bytes": 1191
+    },
+    {
+      "path": "point_cloud_perception/CMakeLists.txt",
+      "lines": 64,
+      "bytes": 1694
+    },
+    {
+      "path": "point_cloud_perception/launch/3d_depth_mapping_rtab.launch.py",
+      "lines": 103,
+      "bytes": 3978
+    },
+    {
+      "path": "point_cloud_perception/launch/rtab_mapping.launch.py",
+      "lines": 25,
+      "bytes": 997
+    },
+    {
+      "path": "point_cloud_perception/src/clustering.cpp",
+      "lines": 113,
+      "bytes": 4165
+    },
+    {
+      "path": "point_cloud_perception/src/planner_seg.cpp",
+      "lines": 47,
+      "bytes": 1503
+    },
+    {
+      "path": "point_cloud_perception/src/voxelizing.cpp",
+      "lines": 33,
+      "bytes": 1020
+    },
+    {
+      "path": "robot_math/robot_math/__init__.py",
+      "lines": 0,
+      "bytes": 0
+    },
+    {
+      "path": "robot_math/robot_math/andular_velocity.py",
+      "lines": 33,
+      "bytes": 830
+    },
+    {
+      "path": "robot_math/robot_math/gtg.py",
+      "lines": 59,
+      "bytes": 1723
+    },
+    {
+      "path": "robot_math/setup.py",
+      "lines": 27,
+      "bytes": 750
+    },
+    {
+      "path": "robot_math/test/test_copyright.py",
+      "lines": 25,
+      "bytes": 962
+    },
+    {
+      "path": "robot_math/test/test_flake8.py",
+      "lines": 25,
+      "bytes": 884
+    },
+    {
+      "path": "robot_math/test/test_pep257.py",
+      "lines": 23,
+      "bytes": 803
+    },
+    {
+      "path": "transforms/CMakeLists.txt",
+      "lines": 53,
+      "bytes": 1745
+    },
+    {
+      "path": "transforms/launch/gazebo.launch.py",
+      "lines": 39,
+      "bytes": 1209
+    },
+    {
+      "path": "transforms/launch/rviz.launch.py",
+      "lines": 34,
+      "bytes": 1000
+    },
+    {
+      "path": "transforms/src/frame_chains.cpp",
+      "lines": 82,
+      "bytes": 2527
+    },
+    {
+      "path": "transforms/src/rotation_frame.cpp",
+      "lines": 48,
+      "bytes": 1535
+    },
+    {
+      "path": "transforms/src/static_dynamic_frame.cpp",
+      "lines": 72,
+      "bytes": 2738
+    },
+    {
+      "path": "transforms/src/transform_order.cpp",
+      "lines": 99,
+      "bytes": 3422
+    },
+    {
+      "path": "transforms/src/translation_frame.cpp",
+      "lines": 48,
+      "bytes": 1533
+    },
+    {
+      "path": "turtlebot3_gazebo/CMakeLists.txt",
+      "lines": 90,
+      "bytes": 2923
+    },
+    {
+      "path": "turtlebot3_gazebo/include/turtlebot3_gazebo/turtlebot3_drive.hpp",
+      "lines": 70,
+      "bytes": 2150
+    },
+    {
+      "path": "turtlebot3_gazebo/launch/empty_world.launch.py",
+      "lines": 80,
+      "bytes": 2710
+    },
+    {
+      "path": "turtlebot3_gazebo/launch/robot_state_publisher.launch.py",
+      "lines": 60,
+      "bytes": 1956
+    },
+    {
+      "path": "turtlebot3_gazebo/launch/spawn_turtlebot3.launch.py",
+      "lines": 70,
+      "bytes": 2319
+    },
+    {
+      "path": "turtlebot3_gazebo/launch/turtlebot3_dqn_stage1.launch.py",
+      "lines": 80,
+      "bytes": 2720
+    },
+    {
+      "path": "turtlebot3_gazebo/launch/turtlebot3_dqn_stage2.launch.py",
+      "lines": 80,
+      "bytes": 2720
+    },
+    {
+      "path": "turtlebot3_gazebo/launch/turtlebot3_dqn_stage3.launch.py",
+      "lines": 80,
+      "bytes": 2720
+    },
+    {
+      "path": "turtlebot3_gazebo/launch/turtlebot3_dqn_stage4.launch.py",
+      "lines": 80,
+      "bytes": 2720
+    },
+    {
+      "path": "turtlebot3_gazebo/launch/turtlebot3_house.launch.py",
+      "lines": 80,
+      "bytes": 2717
+    },
+    {
+      "path": "turtlebot3_gazebo/launch/turtlebot3_world.launch.py",
+      "lines": 80,
+      "bytes": 2717
+    },
+    {
+      "path": "turtlebot3_gazebo/models/turtlebot3_dqn_world/obstacle_plugin/CMakeLists.txt",
+      "lines": 27,
+      "bytes": 1049
+    },
+    {
+      "path": "turtlebot3_gazebo/models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc",
+      "lines": 93,
+      "bytes": 2994
+    },
+    {
+      "path": "turtlebot3_gazebo/models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc",
+      "lines": 109,
+      "bytes": 3632
+    },
+    {
+      "path": "turtlebot3_gazebo/models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc",
+      "lines": 75,
+      "bytes": 2200
+    },
+    {
+      "path": "turtlebot3_gazebo/src/turtlebot3_drive.cpp",
+      "lines": 174,
+      "bytes": 5601
+    }
+  ],
+  "skipped": [
+    {
+      "path": ".github/workflows/code-improvement-review.yml",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": ".gitignore",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "LICENSE",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "README.md",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "ai_assitance/package.xml",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "ai_assitance/resource/ai_assitance",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "ai_assitance/setup.cfg",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "ai_assitance/urdf/dolly.urdf",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "navigation_tb3/config/mapping.rviz",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "navigation_tb3/config/navigation.rviz",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "navigation_tb3/config/tb3_map.pgm",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "navigation_tb3/config/tb3_map.yaml",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "navigation_tb3/config/tb3_nav2_params.yaml",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "navigation_tb3/config/turtlebot3_lds_2d.lua",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "navigation_tb3/installations.md",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "navigation_tb3/package.xml",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "nodes/maps/imageMap.png",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "nodes/maps/image_map.png",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "nodes/package.xml",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "point_cloud_perception/package.xml",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "point_cloud_perception/point_clouds/cloud.apcd",
+      "reason": "over 1000000 bytes"
+    },
+    {
+      "path": "resources/commands.md",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "robot_math/package.xml",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "robot_math/resource/robot_math",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "robot_math/setup.cfg",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "transforms/config/urdf_view.rviz",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "transforms/package.xml",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "transforms/urdf/diff_drive.urdf",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "turtlebot3_gazebo/CHANGELOG.rst",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "turtlebot3_gazebo/CONTRIBUTING.md",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "turtlebot3_gazebo/LICENSE",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "turtlebot3_gazebo/README.md",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "turtlebot3_gazebo/models/turtlebot3_common/meshes/burger_base.dae",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "turtlebot3_gazebo/models/turtlebot3_common/meshes/lds.dae",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "turtlebot3_gazebo/models/turtlebot3_common/meshes/r200.dae",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "turtlebot3_gazebo/models/turtlebot3_common/meshes/tire.dae",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "turtlebot3_gazebo/models/turtlebot3_common/meshes/waffle_base.dae",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "turtlebot3_gazebo/models/turtlebot3_common/meshes/waffle_pi_base.dae",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "turtlebot3_gazebo/models/turtlebot3_common/model.config",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "turtlebot3_gazebo/models/turtlebot3_dqn_world/goal_box/model.config",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "turtlebot3_gazebo/models/turtlebot3_dqn_world/goal_box/model.sdf",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "turtlebot3_gazebo/models/turtlebot3_dqn_world/inner_walls/model.config",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "turtlebot3_gazebo/models/turtlebot3_dqn_world/inner_walls/model.sdf",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "turtlebot3_gazebo/models/turtlebot3_dqn_world/model.config",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "turtlebot3_gazebo/models/turtlebot3_dqn_world/model.sdf",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "turtlebot3_gazebo/models/turtlebot3_dqn_world/obstacle1/model.config",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "turtlebot3_gazebo/models/turtlebot3_dqn_world/obstacle1/model.sdf",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "turtlebot3_gazebo/models/turtlebot3_dqn_world/obstacle2/model.config",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "turtlebot3_gazebo/models/turtlebot3_dqn_world/obstacle2/model.sdf",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "turtlebot3_gazebo/models/turtlebot3_dqn_world/obstacles/model.config",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "turtlebot3_gazebo/models/turtlebot3_dqn_world/obstacles/model.sdf",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "turtlebot3_gazebo/models/turtlebot3_house/model.config",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "turtlebot3_gazebo/models/turtlebot3_house/model.sdf",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "turtlebot3_gazebo/models/turtlebot3_waffle/model-1_4.sdf",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "turtlebot3_gazebo/models/turtlebot3_waffle/model.config",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "turtlebot3_gazebo/models/turtlebot3_waffle/model.sdf",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "turtlebot3_gazebo/models/turtlebot3_world/meshes/hexagon.dae",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "turtlebot3_gazebo/models/turtlebot3_world/meshes/wall.dae",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "turtlebot3_gazebo/models/turtlebot3_world/model-1_4.sdf",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "turtlebot3_gazebo/models/turtlebot3_world/model.config",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "turtlebot3_gazebo/models/turtlebot3_world/model.sdf",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "turtlebot3_gazebo/package.xml",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "turtlebot3_gazebo/rviz/tb3_gazebo.rviz",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "turtlebot3_gazebo/urdf/common_properties.urdf",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "turtlebot3_gazebo/urdf/turtlebot3_burger.urdf",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "turtlebot3_gazebo/urdf/turtlebot3_waffle.urdf",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "turtlebot3_gazebo/urdf/turtlebot3_waffle_pi.urdf",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "turtlebot3_gazebo/worlds/empty_world.world",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "turtlebot3_gazebo/worlds/turtlebot3_dqn_stage1.world",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "turtlebot3_gazebo/worlds/turtlebot3_dqn_stage2.world",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "turtlebot3_gazebo/worlds/turtlebot3_dqn_stage3.world",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "turtlebot3_gazebo/worlds/turtlebot3_dqn_stage4.world",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "turtlebot3_gazebo/worlds/turtlebot3_house.world",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "turtlebot3_gazebo/worlds/turtlebot3_world.world",
+      "reason": "non-source format; content not audited"
+    }
+  ],
+  "manifests": [
+    "ai_assitance/package.xml",
+    "ai_assitance/setup.py",
+    "navigation_tb3/CMakeLists.txt",
+    "navigation_tb3/package.xml",
+    "nodes/CMakeLists.txt",
+    "nodes/package.xml",
+    "point_cloud_perception/CMakeLists.txt",
+    "point_cloud_perception/package.xml",
+    "robot_math/package.xml",
+    "robot_math/setup.py",
+    "transforms/CMakeLists.txt",
+    "transforms/package.xml",
+    "turtlebot3_gazebo/CMakeLists.txt",
+    "turtlebot3_gazebo/models/turtlebot3_dqn_world/obstacle_plugin/CMakeLists.txt",
+    "turtlebot3_gazebo/package.xml"
+  ],
+  "conventional_test_paths": [
+    "ai_assitance/test/test_copyright.py",
+    "ai_assitance/test/test_flake8.py",
+    "ai_assitance/test/test_pep257.py",
+    "robot_math/test/test_copyright.py",
+    "robot_math/test/test_flake8.py",
+    "robot_math/test/test_pep257.py"
+  ],
+  "findings": [],
+  "total_findings": 0,
+  "findings_omitted": 0,
+  "execution": "No repository code, tests, builds or hardware were executed."
+}
